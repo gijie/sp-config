@@ -7,6 +7,10 @@ sp:
 spring:
   application:
     name: user-service
+    
+  cloud:
+    config:
+      override: true
 
 server:
   port: 8101
